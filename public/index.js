@@ -1,5 +1,5 @@
 let transactions = [];
-let myChart
+let myChart;
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
